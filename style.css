@@ -25,23 +25,31 @@ justify-content: space-between;
 }
 
 .hamburger{
+    display: block;
     color: white;
     background-color: #0a0a0b;
     font-size: 1.8rem;
 }
-.nav-bar{
+ .nav-bar{
     position: fixed;
     width: 100%;
-}
+    top: 0;
+} 
 .nav-bar a {
     text-decoration: none;
     color: #fff;
   
 }
-
 .nav-wrapper{
     display: none;
 }
+/* .active{
+    position: absolute;
+    right: 200px;
+    height: 100vh;
+    background-color: #2e3038;
+    
+} */
 .nav-bar button{
     display: none;
 }
@@ -95,8 +103,10 @@ display: flex;
     font-size: 1.5rem;
     margin: 1.5rem 0;
     color: #fff;
-    /* padding: 0.25rem; */
 }
+/* .section1{
+    margin-top: 5rem;
+} */
 .words, .bodyhead, .bodytext, i {
     background-color: #2e3038 ;
     
@@ -216,8 +226,12 @@ footer{
 }
 
 @media only screen and (min-width: 992px) {
+.hamburger{
+    display: none;
+}
 .nav-bar{
-    margin: .8rem 2rem;
+    position: fixed;
+    top: 0;
     padding: 0 5rem;
     display: flex;
     justify-content: space-between;
@@ -251,8 +265,11 @@ transition: 500ms ease-in;
     margin: -10rem 0;
     margin-bottom: -15rem;
 }
+.section1{
+    margin-top: -2rem;
+}
  .section-head h1{
-    margin: 1.3rem 0;
+    margin: 1rem 0;
 } 
     .pad {
     padding: 9rem;
