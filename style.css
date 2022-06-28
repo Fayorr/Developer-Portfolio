@@ -21,24 +21,37 @@ p {
 .nav-bar{
 display: flex;
 justify-content: space-between;
-/* padding: 0.25rem; */
+
+}
+
+.hamburger{
+    color: white;
+    background-color: #0a0a0b;
+    font-size: 1.8rem;
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
 }
 .nav-bar a {
     text-decoration: none;
     color: #fff;
-    /* padding: 1.25rem; */
   
 }
-.nav-bar h2{
-    padding: 1.25rem 1rem;
-}
+
 .nav-wrapper{
     display: none;
 }
 .nav-bar button{
     display: none;
 }
-
+.nav-hamburger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.25rem 1rem;
+}
 /* sections */
 
 .bodyText {
