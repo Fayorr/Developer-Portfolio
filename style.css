@@ -29,6 +29,7 @@ justify-content: space-between;
     color: white;
     background-color: #0a0a0b;
     font-size: 1.8rem;
+    cursor: pointer;
 }
  .nav-bar{
     position: fixed;
